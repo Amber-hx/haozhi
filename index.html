@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+		<title>好知</title>
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet"/>
+		<link rel="stylesheet" href="swiper/swiper-3.4.2.min.css">
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<script src="swiper/swiper-3.4.2.min.js"></script>
+	</head>
+ 	<body>
+ 		<!--header begin-->
+ 		<header class="header">
+ 			<div class="head-top center-block clearfix">
+			    <button type="button" class="head-btn navbar-toggle collapsed pull-left" data-toggle="collapse" dattarget="#bs-example-navbar-collapse-1" aria-expanded="false">
+			    	<span class="sr-only">Toggle navigation</span>
+			    	<span class="icon-bar"></span>
+			    	<span class="icon-bar"></span>
+			    	<span class="icon-bar"></span>
+			    </button>
+
+ 				<a href="javascript:;" class="head-a navbar-brand navbar-left">
+            		<img src="img/logo.png" class="img-responsive" alt="好知，howzhi.com">
+         		</a>
+	 			<ul class="head-ul navbar-left clearfix hidden-xs">
+	 				<li class="navbar-left"><a href="javascript:;">学习中心</a></li>
+	 				<li class="navbar-left">
+	 					<!-- Single button -->
+	 					<div class="btn-group">
+						  <button type="button" class="head-hb btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    课程 <span class="caret"></span>
+						  </button>
+						  <ul class="btn-ul dropdown-menu clearfix">
+						    <li class="pull-left"><a href="#">摄影课程</a></li>
+						    <li class="pull-left"><a href="#">创意设计</a></li>
+						    <li class="pull-left"><a href="#">声乐器乐</a></li>
+						    <li class="pull-left"><a href="#">运动健身</a></li>
+						    <li class="pull-left"><a href="#">IT互联网</a></li>
+						    <li class="pull-left"><a href="#">兴趣爱好</a></li>
+						    <li class="pull-left"><a href="#">语言学习</a></li>
+						    <li class="pull-left"><a href="#">职场技能</a></li>
+						    <li class="pull-left"><a href="#">公开课</a></li>
+						  </ul>
+						</div>
+	 				</li>
+	 				<li class="navbar-left"><a href="javascript:;">班级</a></li>
+	 				<li class="navbar-left"><a href="javascript:;">小组</a></li>
+	 			</ul>
+				<ul class="head-ub clearfix">
+					<li><a href="javascript:;">登录</a></li>
+					<li><a href="javascript:;">注册</a></li>
+					<li class="last-li hidden-sm hidden-xs"><a href="javascript:;"><img src="img/phone.png">好知app</a></li>
+				</ul>
+				<div class="head-div hidden-xs">
+					<a href="javascript:;" class="navbar-left a1 visible-lg-block">课程 <img src="img/jiao.png"/></a>
+					<input type="text" placeholder="输入要查找的内容" class="inp navbar-left">
+					<a href="javascript:;" class="a2 navbar-left"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+				</div>
+ 			</div>
+		</header>
+		<!--header end-->
+
+		<!--banner begin-->
+		<div class="banner swiper-container">
+			<ul class=" swiper-wrapper">
+				<li class="swiper-slide"><a href="javascript:;"><img src="img/banner1.jpg" alt="banner" class="show"/></a></li>
+				<li class="swiper-slide"><a href="javascript:;"><img src="img/banner2.jpg" alt="banner"/></a></li>
+				<li class="swiper-slide"><a href="javascript:;"><img src="img/banner3.jpg" alt="banner"/></a></li>
+				<li class="swiper-slide"><a href="javascript:;"><img src="img/banner4.jpg" alt="banner"/></a></li>
+				<li class="swiper-slide"><a href="javascript:;"><img src="img/banner5.jpg" alt="banner"/></a></li>
+			</ul>
+			<div class="swiper-button-prev"></div>
+  			<div class="swiper-button-next"></div>
+			<div class="swiper-pagination"></div>
+			<script type="text/javascript">
+	        new Swiper('.banner',{
+				prevButton:'.swiper-button-prev',
+				nextButton:'.swiper-button-next',
+				loop:true,
+				autoplayDisableOnInteraction:false,
+			}); 
+		</script>
+		</div>
+		<!--banner end-->
+
+		<!--hot begin-->
+	
+			<div class="container hot">
+				<h2 class="hh text-center">
+					<strong class="h-s">热门课程</strong>
+				</h2>
+				<div class="hot-b">
+					<div class="swiper-container row" style="width:100%;">
+						<ul class="hot-ul swiper-wrapper" style="width:100%";>
+							<li class="swiper-slide">
+								<div class="hot-l col-xs-6"><a href="javascript:;"><img src="img/hot1.jpg"></a></div>
+								<div class="hot-r col-xs-6"><a href="javascript:;"><img src="img/hot2.jpg"></a></div>
+							</li>
+							<li class="swiper-slide">
+								<div class="hot-l col-xs-6"><a href="javascript:;"><img src="img/hot3.jpg"></a></div>
+								<div class="hot-r col-xs-6"><a href="javascript:;"><img src="img/hot4.jpg"></a></div>
+							</li>
+							<li class="swiper-slide">
+								<div class="hot-l col-xs-6"><a href="javascript:;"><img src="img/hot5.png"></a></div>
+								<div class="hot-r col-xs-6"><a href="javascript:;"><img src="img/hot6.jpg"></a></div>
+							</li>
+						</ul>
+						<div class="swiper-button-prev"></div>
+			  			<div class="swiper-button-next"></div>
+					</div>
+				</div>
+				<div class="more clearfix">
+					<input type="button" class="inp" value=" 更多 &gt ">
+				</div>
+			</div>
+		
+
+		<script type="text/javascript">
+	        new Swiper('.hot .swiper-container',{
+				prevButton:'.swiper-button-prev',
+				nextButton:'.swiper-button-next',
+				loop:true,
+				autoplayDisableOnInteraction:false,
+			}); 
+		</script>
+		<!--hot end-->
+
+		<!--jp begin-->
+		<div class="container jp">		
+			<h2 class="jp-h text-center">
+				<strong class="h-s">精品课程</strong>
+			</h2>
+			<div class="jp-b row">
+				<ul class="jp-ul col-md-12 clearfix text-center">
+					<li><a href="javascript:;" class="fs">精品推荐</a></li>
+					<li><a href="javascript:;">特价好课</a></li>
+					<li><a href="javascript:;">摄影课堂</a></li>
+					<li><a href="javascript:;">创意设计</a></li>
+					<li><a href="javascript:;">兴趣爱好</a></li>
+					<li><a href="javascript:;">声乐器乐</a></li>
+					<li><a href="javascript:;">运动健身</a></li>
+					<li><a href="javascript:;">IT互联网</a></li>
+				</ul>
+				<div class="row product-class">
+            <div class="col-sm-3 col-xs-6 products-list">
+                <div class="course-item">
+                    <div class="course-img"><a href="javascript:;"><img src="img/jp1.jpg" alt=""></a></div>
+                    <div class="content">
+                        <div class="title"><a href="javascript:;">快速上手淘宝摄影教程</a></div>
+                        <div class="teacher clearfix">
+                            <a href="javascript:;" class="pull-left"><img src="img/tx1.jpg" alt="">一个小九</a>
+                            <span class="pull-left"></span>
+                            <p class="pull-right">￥99.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-xs-6 products-list">
+                <div class="course-item ">
+                    <div class="course-img"><a href="javascript:;"><img src="img/jp2.jpg" alt=""></a></div>
+                    <div class="content">
+                        <div class="title" style=""><a href="javascript:;">【街头健身】打造肌肉力量</a></div>
+                        <div class="teacher clearfix" style="">
+                            <a href="javascript:;" class="pull-left"><img src="img/tx2.jpg" alt="" >看你魅</a>
+                            <span class="pull-left"></span>
+                            <p class="pull-right color">免费</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-item ">
+                    <div class="course-img"><a href="javascript:;"><img src="img/jp5.jpg" alt="" ></a></div>
+                    <div class="content">
+                        <div class="title"><a href="javascript:;">秒懂软知识</a></div>
+                        <div class="teacher clearfix">
+                            <a href="javascript:;" class="pull-left"><img src="img/tx5.jpg" alt="" >秒懂软知识</a>
+                            <span class="pull-left"></span>
+                            <p class="pull-right color">免费</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-xs-12  products-list">
+                <div class="course-item ">
+                    <div class="course-img"><a href="javascript:;"><img src="img/jp3.png" alt=""></a></div>
+                    <div class="content">
+                        <div class="title"><a href="javascript:;">功夫英语——如何在6个月内从0学会任何</a></div>
+                        <div class="teacher clearfix">
+                            <a href="javascript:;" class="pull-left"><img src="img/tx3.jpg" alt="" >功夫英语</a>
+                            <span class="pull-left"></span>
+                            <p class="pull-right color">免费</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-item ">
+                    <div class="course-img"><a href="javascript:;"><img src="img/jp6.jpg" alt="" ></a></div>
+                    <div class="content">
+                        <div class="title"><a href="javascript:;">从零开始学乐理！</a></div>
+                        <div class="teacher clearfix" >
+                            <a href="javascript:;" class="pull-left"><img src="img/tx6.jpg" alt="" >哎呀音乐</a>
+                            <span class="pull-left"></span>
+                            <p class="pull-right">￥50.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-xs-12  products-list">
+                <div class="course-item">
+                    <div class="course-img"><a href="javascript:;"><img src="img/jp4.jpg" alt=""></a></div>
+                    <div class="content">
+                        <div class="title"><a href="javascript:;">Ai七课堂光速手上(免费课程)</a></div>
+                        <div class="teacher clearfix" >
+                            <a href="javascript:;" class="pull-left"><img src="img/tx4.jpg" alt="" >灵动思维软件</a>
+                            <span class="pull-left"></span>
+                            <p class="pull-right color">免费</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-item">
+                    <div class="course-img"><a href="javascript:;"><img src="img/jp7.jpg" alt="" ></a></div>
+                    <div class="content">
+                        <div class="title"><a href="javascript:;">零基础学习UI设计--ps基础阶段</a></div>
+                        <div class="teacher clearfix" >
+                            <a href="javascript:;" class="pull-left"><img src="img/tx7.jpg" alt="" >一个小九</a>
+                            <span class="pull-left"></span>
+                            <p class="pull-right color" >免费</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+			</div>
+				<div class="more clearfix">
+					<input type="button" class="inp" value=" 更多 &gt ">
+				</div>
+		</div>
+		<!--jp end-->
+
+		<!--banj begin-->
+		<div class="container banj">		
+			<h2 class="jp-h text-center">
+				<strong class="h-s">班级推荐</strong>
+			</h2>
+			<div class="banj-b clearfix">
+				<div class="col-md-3 col-xs-6 list">
+					<div class="pic">
+						<a href="javascript:;"><img src="img/banj1.jpg" alt=""/></a>
+					</div>
+					<div class="info">
+						<h3>零基础摄影入门班</h3>
+						<p>好知摄影入门班，最有趣的单反摄影入门教程！零基础学习摄影入门技巧，专业摄影师为你...</p>
+						<a href="javascript:;">立即加入</a>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6 list">
+					<div class="pic">
+						<a href="javascript:;"><img src="img/banj2.jpg" alt=""/></a>
+					</div>
+					<div class="info">
+						<h3>极致风光摄影进阶提高班</h3>
+						<p>华盖 500PX签约摄影师独家风光后期秘诀。从入门到提高，系统地学习前期拍摄技术...</p>
+						<a href="javascript:;">立即加入</a>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6 list">
+					<div class="pic">
+						<a href="javascript:;"><img src="img/banj3.jpg" alt=""/></a>
+					</div>
+					<div class="info">
+						<h3>Adobe Lightroom cc后期基础入门班</h3>
+						<p>每天10min 轻松入门</p>
+						<a href="javascript:;">立即加入</a>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6 list">
+					<div class="pic">
+						<a href="javascript:;"><img src="img/banj4.jpg" alt=""/></a>
+					</div>
+					<div class="info">
+						<h3>牛牛人像摄影班</h3>
+						<p>人像摄影可以是怎样的？它可以是日系清新人像：清淡的色调，简单的画面，不经意间的构...</p>
+						<a href="javascript:;">立即加入</a>
+					</div>
+				</div>
+			</div>
+			<div class="dynamic">
+				<h4 class="clearfix"><span></span> 班级动态</h4>
+				<ul>
+					<li class="col-md-6">
+						<a href="javascript:;" class="use-a">
+							<img src="img/dynamic-tx1.jpg" alt=""/>
+							柠檬998
+						</a>
+						<span>加入了</span>
+						<a href="javascript:;" class="use-class">零基础摄影入门班</a>
+						<i class="pull-right">2小时前</i>
+					</li>
+					<li class="col-md-6">
+						<a href="javascript:;" class="use-a">
+							<img src="img/dynamic-tx2.jpg" alt=""/>
+							徐小波
+						</a>
+						<span>加入了</span>
+						<a href="javascript:;" class="use-class">极致风光摄影进阶提高班</a>
+						<i class="pull-right">21小时前</i>
+					</li>
+				</ul>
+			</div>
+				<div class="more clearfix">
+					<input type="button" class="inp" value=" 更多 &gt ">
+				</div>
+		</div>
+		<!--banj end-->
+
+		<!--topic begin-->
+			<div class="topic">
+				<div class="container topic-box">		
+					<h2 class="topic-h text-center">
+						<strong class="h-s">精品课程</strong>
+					</h2>
+					<div class="swiper-container">
+						<ul class="topic-ul swiper-wrapper">
+							<li class="swiper-slide clearfix">
+								<div class="col-xs-6 col-sm-6 col-md-3"><a href="javascript:;"><img src="img/topic1.jpg"></a></div>
+								<div class="col-xs-6 col-sm-6 col-md-3"><a href="javascript:;"><img src="img/topic2.jpg"></a></div>
+								<div class="col-xs-6 col-sm-6 col-md-3"><a href="javascript:;"><img src="img/topic3.jpg"></a></div>
+								<div class="col-xs-6 col-sm-6 col-md-3"><a href="javascript:;"><img src="img/topic4.jpg"></a></div>
+							</li>
+							<li class="swiper-slide clearfix">
+								<div class="col-xs-6 col-sm-6 col-md-3"><a href="javascript:;"><img src="img/topic5.jpg"></a></div>
+								<div class="col-xs-6 col-sm-6 col-md-3"><a href="javascript:;"><img src="img/topic6.jpg"></a></div>
+								<div class="col-xs-6 col-sm-6 col-md-3"><a href="javascript:;"><img src="img/topic7.jpg"></a></div>
+								<div class="col-xs-6 col-sm-6 col-md-3"><a href="javascript:;"><img src="img/topic8.jpg"></a></div>
+							</li>
+							<li class="swiper-slide clearfix">
+								<div class="col-xs-6 col-sm-6 col-md-3"><a href="javascript:;"><img src="img/topic9.jpg"></a></div>
+								<div class="col-xs-6 col-sm-6 col-md-3"><a href="javascript:;"><img src="img/topic10.jpg"></a></div>
+								<div class="col-xs-6 col-sm-6 col-md-3"><a href="javascript:;"><img src="img/topic11.jpg"></a></div>
+								<div class="col-xs-6 col-sm-6 col-md-3"></div>
+							</li>
+						</ul>
+		                <div class="swiper-button-prev"></div>
+		                <div class="swiper-button-next"></div>
+					</div>
+				
+				<div class="more clearfix">
+					<input type="button" class="inp" value=" 更多 &gt ">
+				</div>
+		            <script>
+		                new Swiper('.topic-box .swiper-container',{
+		                    pagination:'.topic-box .swiper-pagination',
+		                    paginationClickable:true,
+		                    paginationType:'bullets',
+		                    prevButton:'.topic-box .swiper-button-prev',
+		                    nextButton:'.topic-box .swiper-button-next',
+		                    loop:true,
+		                    effect:'fade',
+		                    /*autoplay : 1000,
+		                    autoplayDisableOnInteraction : false*/
+		                });
+		            </script>
+				</div>
+			</div>
+		<!--topic end-->
+
+		<!--label begin-->
+			<div class="label">
+    			<div class="label-class container">
+        			<h2 class="col-md-12 text-center"><strong>热门标签</strong></h2>
+					<ul class="row label-list">
+						<li class="col-md-2 col-sm-3 col-xs-4 hot-label">
+	                		<a href="javascript:;">
+	                    		<p><img src="img/label1.jpg" alt=""></p>
+	                    		<h4>Lightroom<br><span>12门课程</span></h4>
+	                		</a>
+	           			</li>
+						<li class="col-md-2 col-sm-3 col-xs-4 hot-label">
+	                		<a href="javascript:;">
+	                    		<p><img src="img/label2.jpg" alt=""></p>
+	                    		<h4>Lightroom<br><span>12门课程</span></h4>
+	                		</a>
+	           			</li>
+						<li class="col-md-2 col-sm-3 col-xs-4 hot-label">
+	                		<a href="javascript:;">
+	                    		<p><img src="img/label3.jpg" alt=""></p>
+	                    		<h4>Lightroom<br><span>12门课程</span></h4>
+	                		</a>
+	           			</li>
+						<li class="col-md-2 col-sm-3 col-xs-4 hot-label">
+	                		<a href="javascript:;">
+	                    		<p><img src="img/label4.jpg" alt=""></p>
+	                    		<h4>Lightroom<br><span>12门课程</span></h4>
+	                		</a>
+	           			</li>
+						<li class="col-md-2 col-sm-3 col-xs-4 hot-label">
+	                		<a href="javascript:;">
+	                    		<p><img src="img/label5.jpg" alt=""></p>
+	                    		<h4>Lightroom<br><span>12门课程</span></h4>
+	                		</a>
+	           			</li>
+						<li class="col-md-2 col-sm-3 col-xs-4 hot-label">
+	                		<a href="javascript:;">
+	                    		<p><img src="img/label6.jpg" alt=""></p>
+	                    		<h4>Lightroom<br><span>12门课程</span></h4>
+	                		</a>
+	           			</li>
+						<li class="col-md-2 col-sm-3 col-xs-4 hot-label">
+	                		<a href="javascript:;">
+	                    		<p><img src="img/label7.jpg" alt=""></p>
+	                    		<h4>Lightroom<br><span>12门课程</span></h4>
+	                		</a>
+	           			</li>
+						<li class="col-md-2 col-sm-3 col-xs-4 hot-label">
+	                		<a href="javascript:;">
+	                    		<p><img src="img/label8.jpg" alt=""></p>
+	                    		<h4>Lightroom<br><span>12门课程</span></h4>
+	                		</a>
+	           			</li>
+						<li class="col-md-2 col-sm-3 col-xs-4 hot-label">
+	                		<a href="javascript:;">
+	                    		<p><img src="img/label9.jpg" alt=""></p>
+	                    		<h4>Lightroom<br><span>12门课程</span></h4>
+	                		</a>
+	           			</li>
+						<li class="col-md-2 col-sm-3 col-xs-4 hot-label">
+	                		<a href="javascript:;">
+	                    		<p><img src="img/label10.jpg" alt=""></p>
+	                    		<h4>Lightroom<br><span>12门课程</span></h4>
+	                		</a>
+	           			</li>
+						<li class="col-md-2 col-sm-3 col-xs-4 hot-label">
+	                		<a href="javascript:;">
+	                    		<p><img src="img/label11.jpg" alt=""></p>
+	                    		<h4>Lightroom<br><span>12门课程</span></h4>
+	                		</a>
+	           			</li>
+						<li class="col-md-2 col-sm-3 col-xs-4 hot-label">
+	                		<a href="javascript:;">
+	                    		<p><img src="img/label12.jpg" alt=""></p>
+	                    		<h4>Lightroom<br><span>12门课程</span></h4>
+	                		</a>
+	           			</li>
+					</ul>
+				</div>
+			</div>
+		<!--label end-->
+ 	  <script src="js/jquery-1.9.1.min.js"></script>
+ 	  <script src="js/bootstrap.min.js"></script>
+ 	</body>
+</html>
